@@ -1,0 +1,20 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  
+# Fixes issue with pluralization in entries info for pagination
+  will_paginate:
+    page_entries_info:
+      single_page:
+        zero:  "No Incidents found"
+        one:   "Displaying 1 %{model}"
+        other: "Displaying all %{count} %{model}s"
+      single_page_html:
+        zero:  "No Incidents found"
+        one:   "Displaying <b>1</b> %{model}"
+        other: "Displaying <b>all&nbsp;%{count}</b> %{model}s"
+
+      multi_page: "Displaying %{model} %{from} - %{to} of %{count} in total"
+      multi_page_html: "Displaying %{model}s <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{count}</b> in total"

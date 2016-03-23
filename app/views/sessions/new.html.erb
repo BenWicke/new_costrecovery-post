@@ -1,0 +1,23 @@
+<center>
+
+<p><%= link_to 'Forgot your password?', :action => 'resetpass' %></p>
+
+<h2>Please log in:</h2>
+
+<%= form_tag session_path do %>
+  <div class="field">
+    <%= label_tag "Your Email address:" %><br />
+    <%= text_field_tag :email %>
+  </div>
+  <div class="field">
+    <%= label_tag "Your password:" %><br />
+    <%= password_field_tag :password %>
+  </div>
+  <div class="actions">
+    <%= submit_tag 'Login' %>
+  </div>
+<% end %>
+
+
+
+</center>

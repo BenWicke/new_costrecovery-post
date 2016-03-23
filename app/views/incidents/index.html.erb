@@ -1,0 +1,128 @@
+
+<div id="submitit">
+<%= button_to 'Submit A New Incident', new_incident_path, :method => 'get' %>
+
+<!-- SEARCH FORM AND DROP DOWN ONLY VISIBLE TO ADMIN -->
+<% if current_user.admin == "yes" %>
+<!-- SEARCH FORM -->
+<%= form_tag incidents_path, :method => 'get' do %>
+	<p>
+		Incident Report #: <%= text_field_tag :searchInvoice %>
+		<%= submit_tag "Search", :name => nil %>
+	</p>
+
+<% end %>
+
+
+<!-- DROP DOWN MENU -->
+<script type="text/javascript">
+function dropdown(mySel)
+{
+var myWin, myVal;
+myVal = mySel.options[mySel.selectedIndex].value;
+if(myVal)
+   {
+   if(mySel.form.target)myWin = parent[mySel.form.target];
+   else myWin = window;
+   if (! myWin) return true;
+   myWin.location = myVal;
+   }
+return false;
+}
+</script>
+
+
+<form method="post" onSubmit="return dropdown(this.gourl)">
+<p align="center">
+<select name="gourl">
+<option value="">Choose a Department...</option>
+<option value="/incidents">All</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Eastwood">Eastwood</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Greendale">Greendale</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Jeffersontown">Jeffersontown</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Lexington">Lexington</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Southeast">Southeast</option>
+<option value="/incidents?utf8=%E2%9C%93&search=Zoneton">Zoneton</option>
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="Go">
+</p>
+</FORM><!-- DROP DOWN MENU -->
+<% end %> <!-- END OF IF CURRENT_USER IS ADMIN -->
+
+</div><!-- end of submitit div -->
+
+<% if Incident.count != 0 %>
+
+<div style="margin-top:20px;" id="incidentlist">
+<table>
+  <tr style="background:#e7e7e7">
+    <th>Incident Date:</th>
+	<th>Incident Report Number:</th>
+    <th>Location:</th>
+	<th>Status:</th>
+	<% if current_user.admin == "yes" %>
+	<th>Submitted By:</th>
+	<% end %>
+	
+   
+  </tr>
+
+<% @incidents.each do |incident| %>
+  <tr>
+    <td><%= incident.truncated_time %></td>
+	<td><%= link_to incident.report_nr, incident %></td>
+	<td><%= incident.location %></td>
+	<td><b><%= incident.status %></b> <% if current_user.admin == "yes" %><%= link_to "change", changestatus_incident_path(incident) %><% end %></td>
+	<% if current_user.admin == "yes" %>
+	<td><%= User.find(incident.user_id).profile.name %> (<%= User.find(incident.user_id).profile.department %>)</td>
+	<% end %>
+    <td><%= link_to 'View Time Sheet', incident_timesheet_path(incident) %></td>
+	<td><%= link_to 'Delete Incident', incident, :confirm => 'Are you sure?', :method => :delete %></td>
+	 </tr>
+<% end %>
+</table>
+
+<br /><br />
+
+<% if current_user.admin == "yes" %>
+<!-- NEEDED FOR PAGNIATION, IF AN ADMIN -->
+<% if params[:searchInvoice]%> <!-- FOR SEARCHING -->
+	<div class="flickr_pagination">
+		<%= will_paginate @incidents, :container => false %>
+		<div class="page_info">
+			<%= page_entries_info @incidents %>
+		</div>
+	</div>
+<% elsif params[:search]%> <!-- FOR FILTERING -->
+	<div class="flickr_pagination">
+		<%= will_paginate @incidents, :container => false %>
+		<div class="page_info">
+			<%= page_entries_info @incidents %>
+		</div>
+	</div>
+<% else %> <!-- FOR DEFAULT PAGINATION -->
+	<div class="flickr_pagination">
+		<%= will_paginate @incidents, :container => false %>
+		<div class="page_info">
+			<%= page_entries_info @incidents %>
+		</div>
+	</div>
+<% end %>
+
+
+<% else %><!-- IF CURRENT_USER NOT ADMIN -->
+<div class="flickr_pagination">
+	<%= will_paginate @incidents, :container => false %>
+	<div class="page_info">
+		<%= page_entries_info @incidents %>
+	</div>
+</div>
+
+<% end %> <!-- END OF IF CURRENT_USER IS ADMIN -->
+
+</div> <!-- END OF INCIDENTLIST DIV -->
+
+
+<% else %>
+<p>(Your incidents will be listed here after you add the first one)</p>
+<% end %>
