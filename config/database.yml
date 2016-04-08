@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: cr-3-24-16
+  database: cr-3-31-16
   pool: 5
   username: Ben
   password:
@@ -18,7 +18,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: cr-3-24-16
+  database: cr-3-31-16
   pool: 5
   username: Ben
   password:

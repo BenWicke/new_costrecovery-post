@@ -31503,3 +31503,1599 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-03-24 15:39:15 -0400
 Served asset /irstlogo.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20101029190037)
+Migrating to CreateProfiles (20101029190243)
+Migrating to CreateIncidents (20101029193337)
+Migrating to AddStatusToIncidents (20101029203851)
+Migrating to AddSessionsTable (20101103141732)
+Migrating to RenamePasswordToHashedPassword (20101103143512)
+Migrating to AddUserIdToIncidents (20101103144654)
+Migrating to AddAdminToUsers (20101112173840)
+Migrating to CreateTimesheets (20101117211115)
+Migrating to CreateCommandOfficers (20101117212822)
+Migrating to CreateFireChiefs (20101117212847)
+Migrating to CreateFireFighters (20101117212910)
+Migrating to CreateSafetyOfficers (20101117212929)
+Migrating to CreateEmts (20101117212947)
+Migrating to CreateHazmatSpecialists (20101117213008)
+Migrating to CreateCommandVehicles (20101117213233)
+Migrating to CreateEngines (20101117213250)
+Migrating to CreateEmergencySupports (20101117213317)
+Migrating to CreateHazmatUnits (20101117213335)
+Migrating to CreateFieldUnits (20101117213353)
+Migrating to CreatePumpers (20101117213410)
+Migrating to CreateTankers (20101117213432)
+Migrating to CreateRescueUnits (20101117213454)
+Migrating to ChangeDatatypesPersonnel (20101118191633)
+Migrating to ChangeDatatypeTotalhours (20101118195511)
+Migrating to CreateMatLists (20110111190901)
+Migrating to RenameMatListRef (20110118160145)
+Migrating to AddDetailsToIncident (20110303153934)
+Migrating to AddLogToUsers (20110406171312)
+Migrating to AddReportNrToSafetyOfficers (20121004144823)
+Migrating to AddReportNrToFireFighters (20121004183453)
+Migrating to AddReportNrToCommandOfficers (20121005150006)
+Migrating to AddReportNrToFireChiefs (20121008133844)
+Migrating to AddReportNrToEmts (20121008141137)
+Migrating to AddReportNrToCommandVehicles (20121008152804)
+Migrating to AddReportNrToEmergencySupports (20121008172637)
+Migrating to AddReportNrToEngines (20121008174659)
+Migrating to AddReportNrToFieldUnits (20121008183010)
+Migrating to AddReportNrToHazmatSpecialists (20121008190131)
+Migrating to AddReportNrToHazmatUnits (20121008193151)
+Migrating to AddReportNrToPumpers (20121008200057)
+Migrating to AddReportNrToRescueUnits (20121008201956)
+Migrating to AddReportNrToTankers (20121008204114)
+Migrating to AddReportNrToMatLists (20121009121924)
+Migrating to CreateLadderTruck75s (20121109161046)
+Migrating to CreateLadderTruck150s (20121109194053)
+Migrating to AddStayAndStayAmAndSodaAndSodaAmToMatLists (20121128202912)
+Migrating to AddStrikeAndStrikeAmAndWtrPolymersAndWtrPolymersAmToMatLists (20121218193205)
+Migrating to AddAcidAndAcidAmToMatLists (20131021144932)
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20101029190037)
+Migrating to CreateProfiles (20101029190243)
+Migrating to CreateIncidents (20101029193337)
+Migrating to AddStatusToIncidents (20101029203851)
+Migrating to AddSessionsTable (20101103141732)
+Migrating to RenamePasswordToHashedPassword (20101103143512)
+Migrating to AddUserIdToIncidents (20101103144654)
+Migrating to AddAdminToUsers (20101112173840)
+Migrating to CreateTimesheets (20101117211115)
+Migrating to CreateCommandOfficers (20101117212822)
+Migrating to CreateFireChiefs (20101117212847)
+Migrating to CreateFireFighters (20101117212910)
+Migrating to CreateSafetyOfficers (20101117212929)
+Migrating to CreateEmts (20101117212947)
+Migrating to CreateHazmatSpecialists (20101117213008)
+Migrating to CreateCommandVehicles (20101117213233)
+Migrating to CreateEngines (20101117213250)
+Migrating to CreateEmergencySupports (20101117213317)
+Migrating to CreateHazmatUnits (20101117213335)
+Migrating to CreateFieldUnits (20101117213353)
+Migrating to CreatePumpers (20101117213410)
+Migrating to CreateTankers (20101117213432)
+Migrating to CreateRescueUnits (20101117213454)
+Migrating to ChangeDatatypesPersonnel (20101118191633)
+Migrating to ChangeDatatypeTotalhours (20101118195511)
+Migrating to CreateMatLists (20110111190901)
+Migrating to RenameMatListRef (20110118160145)
+Migrating to AddDetailsToIncident (20110303153934)
+Migrating to AddLogToUsers (20110406171312)
+Migrating to AddReportNrToSafetyOfficers (20121004144823)
+Migrating to AddReportNrToFireFighters (20121004183453)
+Migrating to AddReportNrToCommandOfficers (20121005150006)
+Migrating to AddReportNrToFireChiefs (20121008133844)
+Migrating to AddReportNrToEmts (20121008141137)
+Migrating to AddReportNrToCommandVehicles (20121008152804)
+Migrating to AddReportNrToEmergencySupports (20121008172637)
+Migrating to AddReportNrToEngines (20121008174659)
+Migrating to AddReportNrToFieldUnits (20121008183010)
+Migrating to AddReportNrToHazmatSpecialists (20121008190131)
+Migrating to AddReportNrToHazmatUnits (20121008193151)
+Migrating to AddReportNrToPumpers (20121008200057)
+Migrating to AddReportNrToRescueUnits (20121008201956)
+Migrating to AddReportNrToTankers (20121008204114)
+Migrating to AddReportNrToMatLists (20121009121924)
+Migrating to CreateLadderTruck75s (20121109161046)
+Migrating to CreateLadderTruck150s (20121109194053)
+Migrating to AddStayAndStayAmAndSodaAndSodaAmToMatLists (20121128202912)
+Migrating to AddStrikeAndStrikeAmAndWtrPolymersAndWtrPolymersAmToMatLists (20121218193205)
+Migrating to AddAcidAndAcidAmToMatLists (20131021144932)
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Processing by IncidentsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /pagination.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /scaffold.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /controls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /dragdrop.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /effects.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /prototype.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-03-31 10:27:06 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Ykg0wIzKcNh2TD+P7Yz3VUyfz8ii/BQhU4/xz7T6Aw=", "email"=>"admin@ciagent.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'admin@ciagent.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Processing by IncidentsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (0.9ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mUser Load (2.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 0
+  Rendered incidents/index.html.erb within layouts/application (60.8ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 68ms (Views: 60.6ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-03-31 10:27:09 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Processing by IncidentsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-03-31 10:27:20 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Processing by IncidentsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /pagination.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /controls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /dragdrop.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /effects.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /prototype.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:06:07 -0400
+Served asset /irstlogo.png - 304 Not Modified (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YncsbxtoXFvb217XtiDJgxStAoNyand1y5if0y/SIxM=", "email"=>"admin@ciagent.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (3.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'admin@ciagent.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Processing by IncidentsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (3.9ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (2.7ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mUser Load (3.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mProfile Load (1.1ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 0
+  Rendered incidents/index.html.erb within layouts/application (70.2ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 79ms (Views: 63.0ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:06:11 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/?page=36" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"page"=>"36"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (0.6ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 350
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mProfile Load (0.5ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mProfile Load (0.2ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (0.2ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1
+  [1m[36mIncident Load (0.5ms)[0m  [1mSELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 350[0m
+  Rendered incidents/index.html.erb within layouts/application (17.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:06:25 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/incidents/579" for 127.0.0.1 at 2016-04-08 11:06:41 -0400
+Processing by IncidentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YncsbxtoXFvb217XtiDJgxStAoNyand1y5if0y/SIxM=", "id"=>"579"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" WHERE "incidents"."id" = $1 LIMIT 1  [["id", "579"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTimesheet Load (1.4ms)[0m  SELECT "timesheets".* FROM "timesheets" WHERE "timesheets"."incident_id" = 579 LIMIT 1
+  [1m[36mCommandOfficer Load (2.9ms)[0m  [1mSELECT "command_officers".* FROM "command_officers" WHERE "command_officers"."timesheet_id" = 579[0m
+  [1m[35mSQL (1.1ms)[0m  DELETE FROM "command_officers" WHERE "command_officers"."id" = $1  [["id", 556]]
+  [1m[36mFireChief Load (1.3ms)[0m  [1mSELECT "fire_chiefs".* FROM "fire_chiefs" WHERE "fire_chiefs"."timesheet_id" = 579[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "fire_chiefs" WHERE "fire_chiefs"."id" = $1  [["id", 54]]
+  [1m[36mFireFighter Load (3.9ms)[0m  [1mSELECT "fire_fighters".* FROM "fire_fighters" WHERE "fire_fighters"."timesheet_id" = 579[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1600]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1601]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1602]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1603]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1604]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1605]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1606]]
+  [1m[36mSafetyOfficer Load (1.5ms)[0m  [1mSELECT "safety_officers".* FROM "safety_officers" WHERE "safety_officers"."timesheet_id" = 579[0m
+  [1m[35mEmt Load (1.5ms)[0m  SELECT "emts".* FROM "emts" WHERE "emts"."timesheet_id" = 579
+  [1m[36mHazmatSpecialist Load (1.4ms)[0m  [1mSELECT "hazmat_specialists".* FROM "hazmat_specialists" WHERE "hazmat_specialists"."timesheet_id" = 579[0m
+  [1m[35mCommandVehicle Load (2.0ms)[0m  SELECT "command_vehicles".* FROM "command_vehicles" WHERE "command_vehicles"."timesheet_id" = 579
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1[0m  [["id", 186]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1  [["id", 187]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1[0m  [["id", 188]]
+  [1m[35mEngine Load (2.8ms)[0m  SELECT "engines".* FROM "engines" WHERE "engines"."timesheet_id" = 579
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "engines" WHERE "engines"."id" = $1[0m  [["id", 526]]
+  [1m[35mEmergencySupport Load (1.5ms)[0m  SELECT "emergency_supports".* FROM "emergency_supports" WHERE "emergency_supports"."timesheet_id" = 579
+  [1m[36mHazmatUnit Load (1.2ms)[0m  [1mSELECT "hazmat_units".* FROM "hazmat_units" WHERE "hazmat_units"."timesheet_id" = 579[0m
+  [1m[35mFieldUnit Load (1.1ms)[0m  SELECT "field_units".* FROM "field_units" WHERE "field_units"."timesheet_id" = 579
+  [1m[36mPumper Load (0.9ms)[0m  [1mSELECT "pumpers".* FROM "pumpers" WHERE "pumpers"."timesheet_id" = 579[0m
+  [1m[35mTanker Load (1.1ms)[0m  SELECT "tankers".* FROM "tankers" WHERE "tankers"."timesheet_id" = 579
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tankers" WHERE "tankers"."id" = $1[0m  [["id", 6]]
+  [1m[35mRescueUnit Load (1.6ms)[0m  SELECT "rescue_units".* FROM "rescue_units" WHERE "rescue_units"."timesheet_id" = 579
+  [1m[36mLadderTruck75 Load (0.9ms)[0m  [1mSELECT "ladder_truck75s".* FROM "ladder_truck75s" WHERE "ladder_truck75s"."timesheet_id" = 579[0m
+  [1m[35mLadderTruck150 Load (1.3ms)[0m  SELECT "ladder_truck150s".* FROM "ladder_truck150s" WHERE "ladder_truck150s"."timesheet_id" = 579
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "timesheets" WHERE "timesheets"."id" = $1[0m  [["id", 579]]
+  [1m[35mMatList Load (5.1ms)[0m  SELECT "mat_lists".* FROM "mat_lists" WHERE "mat_lists"."incident_id" = 579 LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mDELETE FROM "mat_lists" WHERE "mat_lists"."id" = $1[0m  [["id", 697]]
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "incidents" WHERE "incidents"."id" = $1  [["id", 579]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/incidents
+Completed 302 Found in 243ms (ActiveRecord: 77.6ms)
+
+
+Started GET "/incidents" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Processing by IncidentsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (0.6ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 0
+  Rendered incidents/index.html.erb within layouts/application (33.6ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 40ms (Views: 35.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:06:42 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/?page=9" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"page"=>"9"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (0.4ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 80
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mIncident Load (0.4ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 80
+  Rendered incidents/index.html.erb within layouts/application (22.6ms)
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:06:49 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/incidents?utf8=%E2%9C%93&searchInvoice=16-100890-1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "searchInvoice"=>"16-100890-1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mIncident Load (1.7ms)[0m  [1mSELECT "incidents".* FROM "incidents" WHERE (report_nr LIKE '%16-100890-1%') ORDER BY id DESC LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mProfile Load (0.2ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  Rendered incidents/index.html.erb within layouts/application (3.8ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:07:08 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/incidents/2523" for 127.0.0.1 at 2016-04-08 11:07:30 -0400
+Processing by IncidentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YncsbxtoXFvb217XtiDJgxStAoNyand1y5if0y/SIxM=", "id"=>"2523"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mIncident Load (0.4ms)[0m  [1mSELECT "incidents".* FROM "incidents" WHERE "incidents"."id" = $1 LIMIT 1[0m  [["id", "2523"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTimesheet Load (0.2ms)[0m  [1mSELECT "timesheets".* FROM "timesheets" WHERE "timesheets"."incident_id" = 2523 LIMIT 1[0m
+  [1m[35mCommandOfficer Load (0.3ms)[0m  SELECT "command_officers".* FROM "command_officers" WHERE "command_officers"."timesheet_id" = 2517
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "command_officers" WHERE "command_officers"."id" = $1[0m  [["id", 2625]]
+  [1m[35mFireChief Load (0.2ms)[0m  SELECT "fire_chiefs".* FROM "fire_chiefs" WHERE "fire_chiefs"."timesheet_id" = 2517
+  [1m[36mFireFighter Load (0.4ms)[0m  [1mSELECT "fire_fighters".* FROM "fire_fighters" WHERE "fire_fighters"."timesheet_id" = 2517[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 6161]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 6162]]
+  [1m[35mSafetyOfficer Load (0.2ms)[0m  SELECT "safety_officers".* FROM "safety_officers" WHERE "safety_officers"."timesheet_id" = 2517
+  [1m[36mEmt Load (0.1ms)[0m  [1mSELECT "emts".* FROM "emts" WHERE "emts"."timesheet_id" = 2517[0m
+  [1m[35mHazmatSpecialist Load (0.1ms)[0m  SELECT "hazmat_specialists".* FROM "hazmat_specialists" WHERE "hazmat_specialists"."timesheet_id" = 2517
+  [1m[36mCommandVehicle Load (0.2ms)[0m  [1mSELECT "command_vehicles".* FROM "command_vehicles" WHERE "command_vehicles"."timesheet_id" = 2517[0m
+  [1m[35mEngine Load (0.2ms)[0m  SELECT "engines".* FROM "engines" WHERE "engines"."timesheet_id" = 2517
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "engines" WHERE "engines"."id" = $1[0m  [["id", 2559]]
+  [1m[35mEmergencySupport Load (0.2ms)[0m  SELECT "emergency_supports".* FROM "emergency_supports" WHERE "emergency_supports"."timesheet_id" = 2517
+  [1m[36mHazmatUnit Load (0.2ms)[0m  [1mSELECT "hazmat_units".* FROM "hazmat_units" WHERE "hazmat_units"."timesheet_id" = 2517[0m
+  [1m[35mFieldUnit Load (0.1ms)[0m  SELECT "field_units".* FROM "field_units" WHERE "field_units"."timesheet_id" = 2517
+  [1m[36mPumper Load (0.1ms)[0m  [1mSELECT "pumpers".* FROM "pumpers" WHERE "pumpers"."timesheet_id" = 2517[0m
+  [1m[35mTanker Load (0.1ms)[0m  SELECT "tankers".* FROM "tankers" WHERE "tankers"."timesheet_id" = 2517
+  [1m[36mRescueUnit Load (0.1ms)[0m  [1mSELECT "rescue_units".* FROM "rescue_units" WHERE "rescue_units"."timesheet_id" = 2517[0m
+  [1m[35mLadderTruck75 Load (0.1ms)[0m  SELECT "ladder_truck75s".* FROM "ladder_truck75s" WHERE "ladder_truck75s"."timesheet_id" = 2517
+  [1m[36mLadderTruck150 Load (0.2ms)[0m  [1mSELECT "ladder_truck150s".* FROM "ladder_truck150s" WHERE "ladder_truck150s"."timesheet_id" = 2517[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "timesheets" WHERE "timesheets"."id" = $1  [["id", 2517]]
+  [1m[36mMatList Load (0.3ms)[0m  [1mSELECT "mat_lists".* FROM "mat_lists" WHERE "mat_lists"."incident_id" = 2523 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "mat_lists" WHERE "mat_lists"."id" = $1  [["id", 2635]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "incidents" WHERE "incidents"."id" = $1[0m  [["id", 2523]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/incidents
+Completed 302 Found in 17ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/incidents" for 127.0.0.1 at 2016-04-08 11:07:30 -0400
+Processing by IncidentsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  [1m[36mIncident Load (0.5ms)[0m  [1mSELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mProfile Load (0.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1
+  [1m[36mIncident Load (0.4ms)[0m  [1mSELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 0[0m
+  Rendered incidents/index.html.erb within layouts/application (25.5ms)
+  [1m[35mProfile Load (0.2ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:07:31 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/?page=36" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"page"=>"36"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  [1m[36mIncident Load (0.5ms)[0m  [1mSELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 350[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 21 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 350
+  Rendered incidents/index.html.erb within layouts/application (13.0ms)
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:07:33 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/incidents?utf8=%E2%9C%93&searchInvoice=100636" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "searchInvoice"=>"100636"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mIncident Load (0.4ms)[0m  [1mSELECT "incidents".* FROM "incidents" WHERE (report_nr LIKE '%100636%') ORDER BY id DESC LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mProfile Load (0.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 22 LIMIT 1
+  Rendered incidents/index.html.erb within layouts/application (4.1ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:07:44 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/incidents/582" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Processing by IncidentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YncsbxtoXFvb217XtiDJgxStAoNyand1y5if0y/SIxM=", "id"=>"582"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mIncident Load (0.4ms)[0m  [1mSELECT "incidents".* FROM "incidents" WHERE "incidents"."id" = $1 LIMIT 1[0m  [["id", "582"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTimesheet Load (0.2ms)[0m  [1mSELECT "timesheets".* FROM "timesheets" WHERE "timesheets"."incident_id" = 582 LIMIT 1[0m
+  [1m[35mCommandOfficer Load (0.4ms)[0m  SELECT "command_officers".* FROM "command_officers" WHERE "command_officers"."timesheet_id" = 582
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "command_officers" WHERE "command_officers"."id" = $1[0m  [["id", 559]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_officers" WHERE "command_officers"."id" = $1  [["id", 560]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "command_officers" WHERE "command_officers"."id" = $1[0m  [["id", 561]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_officers" WHERE "command_officers"."id" = $1  [["id", 562]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "command_officers" WHERE "command_officers"."id" = $1[0m  [["id", 563]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_officers" WHERE "command_officers"."id" = $1  [["id", 564]]
+  [1m[36mFireChief Load (0.2ms)[0m  [1mSELECT "fire_chiefs".* FROM "fire_chiefs" WHERE "fire_chiefs"."timesheet_id" = 582[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_chiefs" WHERE "fire_chiefs"."id" = $1  [["id", 55]]
+  [1m[36mFireFighter Load (0.4ms)[0m  [1mSELECT "fire_fighters".* FROM "fire_fighters" WHERE "fire_fighters"."timesheet_id" = 582[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1611]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1612]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1613]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1614]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1615]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1616]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1617]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1618]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1  [["id", 1619]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "fire_fighters" WHERE "fire_fighters"."id" = $1[0m  [["id", 1620]]
+  [1m[35mSafetyOfficer Load (0.2ms)[0m  SELECT "safety_officers".* FROM "safety_officers" WHERE "safety_officers"."timesheet_id" = 582
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "safety_officers" WHERE "safety_officers"."id" = $1[0m  [["id", 37]]
+  [1m[35mEmt Load (0.2ms)[0m  SELECT "emts".* FROM "emts" WHERE "emts"."timesheet_id" = 582
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "emts" WHERE "emts"."id" = $1[0m  [["id", 107]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "emts" WHERE "emts"."id" = $1  [["id", 108]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "emts" WHERE "emts"."id" = $1[0m  [["id", 109]]
+  [1m[35mHazmatSpecialist Load (0.2ms)[0m  SELECT "hazmat_specialists".* FROM "hazmat_specialists" WHERE "hazmat_specialists"."timesheet_id" = 582
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "hazmat_specialists" WHERE "hazmat_specialists"."id" = $1[0m  [["id", 91]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "hazmat_specialists" WHERE "hazmat_specialists"."id" = $1  [["id", 92]]
+  [1m[36mCommandVehicle Load (0.2ms)[0m  [1mSELECT "command_vehicles".* FROM "command_vehicles" WHERE "command_vehicles"."timesheet_id" = 582[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1  [["id", 189]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1[0m  [["id", 190]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1  [["id", 191]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "command_vehicles" WHERE "command_vehicles"."id" = $1[0m  [["id", 192]]
+  [1m[35mEngine Load (0.3ms)[0m  SELECT "engines".* FROM "engines" WHERE "engines"."timesheet_id" = 582
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "engines" WHERE "engines"."id" = $1[0m  [["id", 528]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "engines" WHERE "engines"."id" = $1  [["id", 529]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "engines" WHERE "engines"."id" = $1[0m  [["id", 530]]
+  [1m[35mEmergencySupport Load (0.2ms)[0m  SELECT "emergency_supports".* FROM "emergency_supports" WHERE "emergency_supports"."timesheet_id" = 582
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "emergency_supports" WHERE "emergency_supports"."id" = $1[0m  [["id", 14]]
+  [1m[35mHazmatUnit Load (0.2ms)[0m  SELECT "hazmat_units".* FROM "hazmat_units" WHERE "hazmat_units"."timesheet_id" = 582
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "hazmat_units" WHERE "hazmat_units"."id" = $1[0m  [["id", 73]]
+  [1m[35mFieldUnit Load (0.2ms)[0m  SELECT "field_units".* FROM "field_units" WHERE "field_units"."timesheet_id" = 582
+  [1m[36mPumper Load (0.2ms)[0m  [1mSELECT "pumpers".* FROM "pumpers" WHERE "pumpers"."timesheet_id" = 582[0m
+  [1m[35mTanker Load (0.2ms)[0m  SELECT "tankers".* FROM "tankers" WHERE "tankers"."timesheet_id" = 582
+  [1m[36mRescueUnit Load (0.2ms)[0m  [1mSELECT "rescue_units".* FROM "rescue_units" WHERE "rescue_units"."timesheet_id" = 582[0m
+  [1m[35mLadderTruck75 Load (0.2ms)[0m  SELECT "ladder_truck75s".* FROM "ladder_truck75s" WHERE "ladder_truck75s"."timesheet_id" = 582
+  [1m[36mLadderTruck150 Load (0.2ms)[0m  [1mSELECT "ladder_truck150s".* FROM "ladder_truck150s" WHERE "ladder_truck150s"."timesheet_id" = 582[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "ladder_truck150s" WHERE "ladder_truck150s"."id" = $1  [["id", 8]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "timesheets" WHERE "timesheets"."id" = $1[0m  [["id", 582]]
+  [1m[35mMatList Load (2.6ms)[0m  SELECT "mat_lists".* FROM "mat_lists" WHERE "mat_lists"."incident_id" = 582 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "mat_lists" WHERE "mat_lists"."id" = $1[0m  [["id", 700]]
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "incidents" WHERE "incidents"."id" = $1  [["id", 582]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/incidents
+Completed 302 Found in 60ms (ActiveRecord: 13.2ms)
+
+
+Started GET "/incidents" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Processing by IncidentsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 10 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "incidents" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mProfile Load (0.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 16 LIMIT 1[0m
+  [1m[35mIncident Load (0.5ms)[0m  SELECT "incidents".* FROM "incidents" ORDER BY id DESC LIMIT 1 OFFSET 0
+  Rendered incidents/index.html.erb within layouts/application (29.8ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:08:06 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/incidents?utf8=%E2%9C%93&searchInvoice=100636" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Processing by IncidentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "searchInvoice"=>"100636"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mIncident Load (0.5ms)[0m  [1mSELECT "incidents".* FROM "incidents" WHERE (report_nr LIKE '%100636%') ORDER BY id DESC LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "incidents" 
+  Rendered incidents/index.html.erb within layouts/application (1.6ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = 1 LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:08:14 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Processing by IncidentsController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /pagination.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /scaffold.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.4.2.min.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /jquery-1.4.2.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/irstlogo.png" for 127.0.0.1 at 2016-04-08 11:10:19 -0400
+Served asset /irstlogo.png - 304 Not Modified (0ms)
