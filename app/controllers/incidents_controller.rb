@@ -115,12 +115,13 @@ class IncidentsController < ApplicationController
   # DELETE /incidents/1.xml
   def destroy
     if current_user.admin == "yes"
-	@incident = Incident.find(params[:id])
+	    @incident = Incident.find(params[:id])
+        @incident.destroy
 	else
-    @incident = current_user.incidents.find(params[:id])
+        @incident = current_user.incidents.find(params[:id])
 	end
 	
-    @incident.destroy
+    #@incident.destroy
 
     respond_to do |format|
       format.html { redirect_to(incidents_url) }
