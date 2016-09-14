@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: 9-2-16-current
+  database: 8-12-16
   pool: 5
   username: Ben
   password:
@@ -18,7 +18,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: 9-2-16-current
+  database: 8-12-16
   pool: 5
   username: Ben
   password:
